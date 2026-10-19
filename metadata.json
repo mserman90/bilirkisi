@@ -1,0 +1,7 @@
+{
+  "name": "Bilirkişi Rapor Yazma Otomasyonu",
+  "description": "Ziraat, gıda ve hayvancılık alanlarında bilirkişiler için mevzuata uygun 7 adımlı akıllı rapor hazırlama, AI taslak desteği ve çalışma alanı.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

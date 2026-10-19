@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary: #0F3D2E;
+    --primary-foreground: #FBF9F4;
+    --background: #FBF9F4;
+    --surface: #FFFFFF;
+    --muted: #F1ECE1;
+    --border: #E4DCCB;
+    --accent: #B45309;
+  }
+
+  body {
+    font-family: 'Public Sans', system-ui, -apple-system, sans-serif;
+    color: #1E293B;
+    background-color: #FBF9F4;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: 'Fraunces', Georgia, serif;
+  }
+
+  .font-mono, tabular-nums {
+    font-family: 'IBM Plex Mono', monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .print-container {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 20mm !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+}
